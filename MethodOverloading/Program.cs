@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Odbc;
 using System.Linq;
+using System.Net;
 using System.Runtime.Remoting;
 using System.Security.Permissions;
 using System.Text;
@@ -25,7 +26,15 @@ namespace MethodOverloading
             //null argument and throws ArgumentNull Exception.
             string s = null;
             Console.WriteLine(Convert.ToInt32(s));
-            Console.WriteLine(Int32.Parse(s));
+            //Console.WriteLine(Int32.Parse(s));
+
+            // the difference between a.Equals(b) and a==b is that the later will give
+            // compile error if data types of the operands are  different but the
+            // first one will not give compile issue but rather give  result as false .
+            int a = 4;
+            string b = "f";
+            Console.WriteLine(a.Equals(b));
+           // Console.WriteLine(a==b);
             Console.ReadKey();
         }
     }
