@@ -15,7 +15,7 @@ namespace FactoryMethod
             {
                 case "cheese":
                     pizza = new CheesePizza(ingredientFactory);
-                   // pizza.Name = "NewYork style Cheese Pizza";
+                    pizza.Name = "NewYork style Cheese Pizza";
                     break;
                 case "clam":
                     pizza = new ClamPizza(ingredientFactory);

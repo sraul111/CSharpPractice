@@ -6,7 +6,7 @@ namespace FactoryMethod
 {
     class NoPizza : Pizza
     {
-        protected override void Prepare()
+        public override void Prepare()
         {
             throw new NotImplementedException();
         }

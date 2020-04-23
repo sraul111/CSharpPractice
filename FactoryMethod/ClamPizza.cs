@@ -12,7 +12,8 @@ namespace FactoryMethod
         {
             _ingredientFactory = pizzaIngredientFactory;
         }
-        protected override void Prepare()
+
+        public override void Prepare()
         {
             Console.WriteLine("Preparing" + Name);
             dough = _ingredientFactory.CreateDough();

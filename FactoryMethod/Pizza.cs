@@ -4,7 +4,7 @@ namespace FactoryMethod
 {
     public abstract class Pizza
     {
-        internal Dough dough;
+         public Dough dough;
         internal Sauce sauce;
         internal Veggies[] veggie;
         internal Cheese cheese;
@@ -13,8 +13,8 @@ namespace FactoryMethod
 
         internal string Name { get; set; }
 
-        protected abstract void Prepare();
-        void Bake()
+        public abstract void Prepare();
+        public void Bake()
         {
             Console.WriteLine("Bake for 25 mins at 350");
         }

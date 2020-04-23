@@ -15,8 +15,11 @@ namespace FactoryMethodTest
         {
             PizzaStore nystore = new NYStore();
             var expectedPizzaObject =nystore.Create("Cheese");
-            PizzaIngredientFactory ingredientFactory = new NewYorkIngredientFactory();
-            var actualPizzaObject = new CheesePizza(ingredientFactory);
+            expectedPizzaObject.Prepare();
+            expectedPizzaObject.Bake();
+            var dough = expectedPizzaObject.dough;
+            Assert.That(dough,Is.InstanceOf<Dough>());
+            Assert.That(dough,Is.InstanceOf<ThinCrustDough>());
         }
     }
 }

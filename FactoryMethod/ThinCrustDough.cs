@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod
 {
-    internal class ThinCrustDough : Dough
+    public class ThinCrustDough : Dough
     {
     }
 }
