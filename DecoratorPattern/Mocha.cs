@@ -9,7 +9,7 @@ namespace DecoratorPattern
     {
         private readonly  Beverage beverage;
 
-        public Mocha(Beverage beverage)
+        public Mocha(Beverage beverage):base(beverage)
         {
             this.beverage = beverage;
         }

@@ -6,8 +6,6 @@ namespace DecoratorPattern
 {
    public abstract class Beverage
    {
-       protected string something;
-
         public abstract double Cost();
         public abstract string GetDescription();
 

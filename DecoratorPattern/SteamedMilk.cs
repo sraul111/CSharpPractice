@@ -8,7 +8,7 @@ namespace DecoratorPattern
     {
         private readonly Beverage _beverage;
 
-        public SteamedMilk(Beverage beverage)
+        public SteamedMilk(Beverage beverage):base(beverage)
         {
             _beverage = beverage;
         }

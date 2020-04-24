@@ -8,7 +8,7 @@ namespace DecoratorPattern
     {
         private readonly Beverage _beverage;
 
-        public Whip(Beverage beverage)
+        public Whip(Beverage beverage):base(beverage)
         {
             _beverage = beverage;
         }
