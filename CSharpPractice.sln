@@ -13,15 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodTest", "FactoryMethodTest\FactoryMethodTest.csproj", "{7CC36BFE-DAEC-42E3-999C-8EB7C1EC1012}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{AED9E3CD-B18E-43A4-B5D8-12E0654E9F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{AED9E3CD-B18E-43A4-B5D8-12E0654E9F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternTest", "SingletonPatternTest\SingletonPatternTest.csproj", "{0DD28BDC-DE83-440D-ADBE-7F51744CA15E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingletonPatternTest", "SingletonPatternTest\SingletonPatternTest.csproj", "{0DD28BDC-DE83-440D-ADBE-7F51744CA15E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{40C8D0BA-0138-4D0B-AE65-FCC6B5353C5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{40C8D0BA-0138-4D0B-AE65-FCC6B5353C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTestProjectNUnit", "CommonTestProjectNUnit\CommonTestProjectNUnit.csproj", "{74360C42-CD34-4C47-84F6-C008A986673A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonTestProjectNUnit", "CommonTestProjectNUnit\CommonTestProjectNUnit.csproj", "{74360C42-CD34-4C47-84F6-C008A986673A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{3D45619F-4136-456E-AC5A-AE1C190FA57E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern", "ObserverPattern\ObserverPattern.csproj", "{3D45619F-4136-456E-AC5A-AE1C190FA57E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPatternWeatherForcast", "ObserverPatternWeatherForcast\ObserverPatternWeatherForcast.csproj", "{EE776869-014B-4AE0-85EF-AD1E1D7962ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{7A323B8A-DE37-42C6-A8DF-CE3E1CA5ADBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{3D45619F-4136-456E-AC5A-AE1C190FA57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D45619F-4136-456E-AC5A-AE1C190FA57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D45619F-4136-456E-AC5A-AE1C190FA57E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE776869-014B-4AE0-85EF-AD1E1D7962ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE776869-014B-4AE0-85EF-AD1E1D7962ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE776869-014B-4AE0-85EF-AD1E1D7962ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE776869-014B-4AE0-85EF-AD1E1D7962ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A323B8A-DE37-42C6-A8DF-CE3E1CA5ADBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A323B8A-DE37-42C6-A8DF-CE3E1CA5ADBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A323B8A-DE37-42C6-A8DF-CE3E1CA5ADBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A323B8A-DE37-42C6-A8DF-CE3E1CA5ADBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
